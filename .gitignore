@@ -1,2 +1,7 @@
 inst/doc
 .Rproj.user
+.o
+.so
+.pdf
+.html
+..Rcheck

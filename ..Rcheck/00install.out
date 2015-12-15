@@ -1,0 +1,13 @@
+* installing *source* package ‘home6’ ...
+** libs
+make: Nie ma nic do zrobienia w `all'.
+make: `symbols.rds' jest aktualne.
+installing to /home/asia/Pulpit/R/home6/home6/home6/..Rcheck/home6/libs
+** R
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (home6)

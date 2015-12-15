@@ -38,15 +38,3 @@ BEGIN_RCPP
     return __result;
 END_RCPP
 }
-// test
-double test(double min, double max);
-RcppExport SEXP home6_test(SEXP minSEXP, SEXP maxSEXP) {
-BEGIN_RCPP
-    Rcpp::RObject __result;
-    Rcpp::RNGScope __rngScope;
-    Rcpp::traits::input_parameter< double >::type min(minSEXP);
-    Rcpp::traits::input_parameter< double >::type max(maxSEXP);
-    __result = Rcpp::wrap(test(min, max));
-    return __result;
-END_RCPP
-}

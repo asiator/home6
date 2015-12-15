@@ -1,0 +1,150 @@
+* using log directory ‘/home/asia/Pulpit/R/home6/home6/home6/..Rcheck’
+* using R version 3.2.0 (2015-04-16)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--as-cran’
+* checking for file ‘./DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘home6’ version ‘1.0’
+* checking CRAN incoming feasibility ... NOTE
+Maintainer: ‘Toruniewska Joanna <j.toruniewska@gmail.com>’
+New submission
+
+Package has a VignetteBuilder field but no prebuilt vignette index.
+
+The Title field should be in title case, current version then in title case:
+‘1.0 Solving 6th R exercise’
+‘1.0 Solving 6th R Exercise’
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+  No repository set, so cyclic dependency check skipped
+* checking if this is a source package ... WARNING
+Subdirectory ‘home6/src’ contains apparent object files/libraries
+  RcppExports.o ex1.o ex2.o ex3.o home6.so
+Object files/libraries should not be included in a source package.
+* checking if there is a namespace ... OK
+* checking for executable files ... WARNING
+Found the following executable files:
+  .git/objects/03/72774cc374a79cdfbcdb3f59afed650be8e55b
+  .git/objects/0a/1ddb745881dad9f8153581ce7a7d8f62241b27
+  .git/objects/1a/6a7021c934e8363919c96a379b56e4a2fc9e5b
+  .git/objects/1d/6d38b49ce0fe8a1e2e96a3253d1536f5ac2147
+  .git/objects/20/f93e8c95d00347487440f1f23075c79d889802
+  .git/objects/24/92137bd692233b7694f335291dfaf05b651d1d
+  .git/objects/27/1314cee2d91a53aabfe1898a8f5a3c55f63049
+  .git/objects/27/9906558f6cc29b75f2bc323fd3398ae0ca2e3e
+  .git/objects/27/eb1fff0e9d5c72a68d57be43d8a0c13d79e11a
+  .git/objects/40/cb5b1efec33160b53585ff9a9e498c12069023
+  .git/objects/48/2372941ebbb1e003f7adbf9e61bd5a07370f5d
+  .git/objects/49/963255d7796589457fb11dd3579f5c2f00877d
+  .git/objects/4b/47b4182b16780b04bbb801b2a6d52e4f5a44ca
+  .git/objects/5c/7b96add71a58c396c096c788f91f6af2c46a3b
+  .git/objects/66/12b31f2728753e5499ea7c161506a70351ce1e
+  .git/objects/68/43888d9dbafda3c80147bc2d95c8f148b34681
+  .git/objects/69/61e6ccc61d0c1e146eab62d4118c50f19b8550
+  .git/objects/6a/e926839dd1829f1016a96f766d970ff184ad97
+  .git/objects/7b/f2165e8d768e1c35894e2dd5e4e28eceb38694
+  .git/objects/7f/db7da48c257bf38595a97cff152d77ea39a622
+  .git/objects/86/51cb5a6987a2dbb8dedb2e57bc9fc8b6888097
+  .git/objects/8e/3a7fde5de1cf9444e4ae2ed0d4325cf1a50f05
+  .git/objects/8f/895d36cc75603c473aa91819819f9daa07e54c
+  .git/objects/91/114bf2f2bba5e0c5252e75018da19b869776f1
+  .git/objects/91/16f7bfe935d32c561c64f25add616906c1f122
+  .git/objects/92/5f684b3e55c414fc7ea492dad3395395c69791
+  .git/objects/97/c70ebe316991d72f936b8ec20e28cd03ebf9ae
+  .git/objects/a7/0b8cd0652dd23343c4b50c749c637309c7d782
+  .git/objects/aa/2cb4f08e4c3c43b03475c163295b4e342f5fff
+  .git/objects/af/102746be5bcea6ada65e84fb2b191a78acac43
+  .git/objects/af/7a15133f01a6d2a2c85ddcf441834f3c2b34e9
+  .git/objects/b2/0e6bfbdb6b3d2d7352c1b3afd5d7f67e692cbb
+  .git/objects/be/b8303c4c396f1e19815044052ec47e71c02dd8
+  .git/objects/c7/c3a857dd51ff4b60139013e0fe747fcb6d5620
+  .git/objects/d9/0e1a6f3d841d3ca3efeafd1edb1f40f0e77977
+  .git/objects/dc/25b1fbd53cc56ac96f7f1fa67704a3a163abd2
+  .git/objects/dc/fa80b86b92217e47d4a42ff67ca65c959aa905
+  .git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  .git/objects/eb/21cafee35e619e7df3a483e61947f4ee978cb0
+  .git/objects/eb/690326a764bde7276c4762c2f9f93288ae8752
+  .git/objects/fb/1eb5c9a698ca04e7320ff828a9a854d24745da
+  .git/objects/fb/b48bcb733d9861922f43feb72839cc2de92fbc
+Source packages should not contain undeclared executable files.
+See section ‘Package structure’ in the ‘Writing R Extensions’ manual.
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .RData
+  .Rhistory
+  .gitignore
+  src/.Rhistory
+  vignettes/.RData
+  vignettes/.Rhistory
+  ..Rcheck
+  .Rproj.user
+  .git
+These were most likely included in error. See section ‘Package
+structure’ in the ‘Writing R Extensions’ manual.
+
+CRAN-pack does not know about
+  .RData
+  vignettes/.RData
+  ..Rcheck
+  .git
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘home6’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+* checking top-level files ... NOTE
+Non-standard files/directories found at top level:
+  ‘DESCRIPTION~’ ‘NAMESPACE~’ ‘home6.Rproj’
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... WARNING
+Found the following directory with the name of a check directory:
+  ./..Rcheck
+Most likely, these were included erroneously.
+Found the following directory with the name of a version control directory:
+  ./.git
+These should not be in a package tarball.
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking use of S3 registration ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking compiled code ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... NONE
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... WARNING
+Package vignettes without corresponding PDF/HTML:
+   ‘benchmark.Rmd’
+   ‘my-vignette.Rmd’
+
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... OK
+* checking PDF version of manual ... WARNING
+LaTeX errors when creating PDF version.
+This typically indicates Rd problems.
+* checking PDF version of manual without hyperrefs or index ... OK
+* DONE
+Status: 5 WARNINGs, 5 NOTEs

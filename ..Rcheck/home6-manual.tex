@@ -1,0 +1,106 @@
+\nonstopmode{}
+\documentclass[letterpaper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[utf8,latin1]{inputenc}
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package `home6'}}
+\par\bigskip{\large \today}
+\end{center}
+\begin{description}
+\raggedright{}
+\item[Type]\AsIs{Package}
+\item[Title]\AsIs{1.0 Solving 6th R exercise}
+\item[Version]\AsIs{1.0}
+\item[Date]\AsIs{2015-12-14}
+\item[Author]\AsIs{Toruniewska Joanna}
+\item[Maintainer]\AsIs{Toruniewska Joanna }\email{j.toruniewska@gmail.com}\AsIs{}
+\item[Description]\AsIs{Homework6}
+\item[License]\AsIs{GPL (>= 2)}
+\item[Imports]\AsIs{Rcpp (>= 0.11.6)}
+\item[LinkingTo]\AsIs{Rcpp}
+\item[RoxygenNote]\AsIs{5.0.1}
+\item[SystemRequirements]\AsIs{C++11}
+\item[Suggests]\AsIs{knitr, rmarkdown}
+\item[VignetteBuilder]\AsIs{knitr}
+\end{description}
+\Rdcontents{\R{} topics documented:}
+\inputencoding{utf8}
+\HeaderA{ass}{ass}{ass}
+%
+\begin{Description}\relax
+This funciotn for some given integer n generates all possible 0-1 assignment vectors of 2n survey participants in such a way that exactly n of them are assigned to group 0 (control) and the other n ones are assigned to group 1 (treatment)
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+ass(n)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{n}] - integer value
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+matrix with 2n columns and an appropriate number of rows
+\end{Value}
+\inputencoding{utf8}
+\HeaderA{home6}{package title ...}{home6}
+\aliasA{home6-package}{home6}{home6.Rdash.package}
+%
+\begin{Description}\relax
+package description ....
+\end{Description}
+\inputencoding{utf8}
+\HeaderA{mode}{mode}{mode}
+%
+\begin{Description}\relax
+This function determine the most frequently occurring value in an integer vector (mode). If the mode is ambiguous (e.g. for 1, 2, 2, 2, 3, 3, 1, 3), return any mode
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+mode(v)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{v}] - integer vector
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+integer value
+\end{Value}
+\inputencoding{utf8}
+\HeaderA{simplify2array}{simplify2array}{simplify2array}
+%
+\begin{Description}\relax
+This function filled  matrix by vectors column-by-column.
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+simplify2array(x)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{x}] - list of numeric vectors
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+matrix
+\end{Value}
+\printindex{}
+\end{document}
